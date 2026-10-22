@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A comprehensive usability and UI/UX field study evaluating key Indian e-governance citizen portals including UMANG, DigiLocker, MyScheme, and Cybercrime Portal. Conducted by CHM College.">
+  <meta name="keywords" content="E-Governance, DigiLocker, UMANG, MyScheme, Cybercrime Portal, UI/UX Audit, Usability Study, Digital India, Citizen Engagement">
+  <meta name="author" content="CHMCSV11 Project Team - Smt. Chandibai Himathmal Mansukhani College">
+  <meta name="theme-color" content="#0d1117">
+  <title>E-Governance & Citizen Portals: A Field Study | UMANG & DigiLocker Usability</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================= -->
+  <!-- NAVIGATION BAR                                                            -->
+  <!-- ========================================================================= -->
+  <header class="site-header" id="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#home" class="nav-brand" aria-label="Home - E-Governance Project">
+        <span class="brand-logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-title">E-Governance</span>
+          <span class="brand-tag">CEP • CHMCSV11</span>
+        </span>
+      </a>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Audit & Portals</a></li>
+          <li class="nav-item"><a href="#methodology" class="nav-link">Methodology</a></li>
+          <li class="nav-item"><a href="#survey" class="nav-link">Survey</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Field Gallery</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">Safety & FAQs</a></li>
+          <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+        </ul>
+        <a href="#survey" class="nav-cta-btn">Take Survey</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- 1. HERO SECTION (#home)                                                   -->
+  <!-- ========================================================================= -->
+  <section class="hero-section" id="home">
+    <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-glow-orb" aria-hidden="true"></div>
+
+    <div class="container hero-container reveal-on-scroll">
+      <div class="hero-badge">
+        <span class="badge-pulse-dot"></span>
+        <span>University Community Engagement Project • Academic Year 2024–2025</span>
+      </div>
+
+      <h1 class="hero-title">
+        E-Governance & Citizen Portals: <span class="gradient-text">A Field Study</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Investigating usability, accessibility barriers, and human-centered UI/UX improvements across flagship Indian digital services—specifically <strong>UMANG</strong> and <strong>DigiLocker</strong>—to empower grassroots citizen participation and reduce digital divide friction.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#survey" class="btn btn-primary btn-pulse">
+          <span>Take the Survey</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="#services" class="btn btn-secondary">
+          <span>Explore UI/UX Audit</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="hero-stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Core Portals Audited</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">150+</div>
+          <div class="stat-label">Community Survey Participants</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">18+</div>
+          <div class="stat-label">UI/UX Bottlenecks Documented</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Grassroots Community Focused</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 2. ABOUT THE PROJECT (#about)                                            -->
+  <!-- ========================================================================= -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Project Context & Purpose</span>
+        <h2 class="section-title">About the <span class="gradient-text">Project</span></h2>
+        <p class="section-description">
+          Bridging the gap between high-level e-governance infrastructure and real-world citizens through rigorous usability testing and community engagement.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left Column: Project Objectives -->
+        <div class="about-col objectives-card reveal-on-scroll">
+          <div class="card-header-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <h3>Core Objectives</h3>
+          </div>
+          <p class="card-intro-text">
+            Our field research directly investigates how ordinary citizens interact with national digital platforms, identifying structural bottlenecks that prevent seamless adoption:
+          </p>
+          <ul class="styled-bullet-list">
+            <li>
+              <div class="bullet-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="bullet-content">
+                <strong>Heuristic Usability Evaluation:</strong> Benchmark the design architectures of DigiLocker and UMANG against Nielsen Norman 10 Usability Heuristics.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="bullet-content">
+                <strong>Accessibility & Language Barriers:</strong> Quantify comprehension hurdles faced by non-English speakers and first-time smartphone users.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="bullet-content">
+                <strong>Empirical Community Surveying:</strong> Collect ground-truth data from diverse demographics regarding authentication failures, Aadhaar linkage, and UI confusion.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="bullet-content">
+                <strong>Actionable UI/UX Recommendations:</strong> Propose wireframed interface blueprints that prioritize simplicity, error recovery, and transparency.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Column: Target Community & Digital Literacy -->
+        <div class="about-col community-card reveal-on-scroll">
+          <div class="card-header-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            <h3>Target Community & Social Impact</h3>
+          </div>
+          <p class="card-intro-text">
+            While India has achieved historic progress in digital public infrastructure, true inclusion requires closing the usability divide for peri-urban and grassroots populations.
+          </p>
+          <div class="community-highlight-box">
+            <h4>Demographic Focus</h4>
+            <p>
+              Our field study focuses on the semi-urban communities of Ulhasnagar and the Mumbai Metropolitan Region—encompassing undergraduate students, local micro-retailers, homemakers, and senior citizens with varying degrees of smartphone literacy.
+            </p>
+          </div>
+          <div class="community-highlight-box">
+            <h4>The Digital Literacy Imperative</h4>
+            <p>
+              When citizen portals suffer from unintuitive UI, complex OTP workflows, or obscure error messages, citizens are forced to depend on paid intermediaries (cyber cafés), creating security vulnerabilities and social exclusion. Streamlined UI/UX is not merely visual polish—it is a fundamental pillar of democratic equality and digital sovereignty.
+            </p>
+          </div>
+
+          <!-- Decorative SVG Element -->
+          <div class="decorative-badge-wrapper">
+            <div class="tech-tag"><span class="tag-dot"></span> Human-Centered Design</div>
+            <div class="tech-tag"><span class="tag-dot"></span> WCAG 2.1 Principles</div>
+            <div class="tech-tag"><span class="tag-dot"></span> Grassroots Inclusion</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 3. DIGITAL SERVICES & UI/UX AUDIT (#services)                            -->
+  <!-- ========================================================================= -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Heuristic Evaluation</span>
+        <h2 class="section-title">Digital Services & <span class="gradient-text">UI/UX Audit</span></h2>
+        <p class="section-description">
+          A comparative audit of four core government portals analyzing user friction points and outlining high-impact, human-centered redesign solutions.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1: DigiLocker -->
+        <article class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box icon-digilocker">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <span class="service-category">Document Repository</span>
+          </div>
+
+          <h3 class="service-name">DigiLocker</h3>
+          <p class="service-desc">
+            The flagship digital document wallet under the Digital India initiative, enabling citizens to fetch and legally share authentic electronic credentials directly from registered issuers.
+          </p>
+
+          <a href="https://www.digilocker.gov.in" target="_blank" rel="noopener noreferrer" class="service-portal-link" aria-label="Visit DigiLocker official portal (opens in new tab)">
+            <span>Visit digilocker.gov.in</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+
+          <div class="audit-improvements">
+            <h4 class="improvements-title">Proposed UI/UX Improvements:</h4>
+            <ul class="improvements-list">
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Streamlined Aadhaar OTP Fallback:</strong> Provide immediate alternative authentication (TOTP or biometric) when SMS gateways experience heavy network latency.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Faceted Issuer Directory:</strong> Replace infinite unstructured dropdowns with smart autocomplete, geographic filter chips, and category tags.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>One-Tap Offline Verifiable QR:</strong> Enable quick offline wallet presentation for traffic stops and train travel without requiring continuous 4G/5G data.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Senior Citizen High-Contrast Mode:</strong> Implement accessible 18pt typography presets and prominent icon labels for elderly users.</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 2: UMANG -->
+        <article class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box icon-umang">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <span class="service-category">Unified Citizen App</span>
+          </div>
+
+          <h3 class="service-name">UMANG Portal</h3>
+          <p class="service-desc">
+            Unified Mobile Application for New-age Governance, bringing together more than 1,200 central, state, and local body services ranging from EPF claims to utility bill payments.
+          </p>
+
+          <a href="https://web.umang.gov.in" target="_blank" rel="noopener noreferrer" class="service-portal-link" aria-label="Visit UMANG official portal (opens in new tab)">
+            <span>Visit web.umang.gov.in</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+
+          <div class="audit-improvements">
+            <h4 class="improvements-title">Proposed UI/UX Improvements:</h4>
+            <ul class="improvements-list">
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Cognitive Load Reduction:</strong> Transform the cluttered 1,200+ icon grid into a contextual, persona-based home screen (e.g. Student, Pensioner, Farmer).</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Unified Design System:</strong> Eliminate jarring UI inconsistencies when transitioning between disparate third-party departmental webviews.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Voice-Driven Vernacular Search:</strong> Integrate speech-to-text navigation in 12 Indian languages to assist citizens with limited formal reading skills.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Session Auto-Save & Drafts:</strong> Prevent catastrophic form loss during multi-stage applications (e.g., EPF claims) caused by sudden token timeouts.</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 3: MyScheme -->
+        <article class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box icon-myscheme">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="12 6 12 12 16 14"></polygon>
+              </svg>
+            </div>
+            <span class="service-category">Entitlements Marketplace</span>
+          </div>
+
+          <h3 class="service-name">MyScheme</h3>
+          <p class="service-desc">
+            A national platform powered by NeGD that helps citizens identify government welfare programs and financial assistance schemes they are legally entitled to receive.
+          </p>
+
+          <a href="https://www.myscheme.gov.in" target="_blank" rel="noopener noreferrer" class="service-portal-link" aria-label="Visit MyScheme official portal (opens in new tab)">
+            <span>Visit myscheme.gov.in</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+
+          <div class="audit-improvements">
+            <h4 class="improvements-title">Proposed UI/UX Improvements:</h4>
+            <ul class="improvements-list">
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Interactive Eligibility Calculator:</strong> Convert lengthy static criteria questionnaires into a 3-step progressive conversational wizard.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Pre-Flight Document Checklist:</strong> Display exact documentation requirements and certified sample attachments before redirecting off-platform.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>WhatsApp & SMS Tracking:</strong> Offer opt-in notifications for scheme approval milestones instead of requiring manual reference tracking.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Side-by-Side Scheme Comparison:</strong> Allow students and farmers to compare scholarship amounts, eligibility, and deadlines in a clear matrix.</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 4: Cybercrime Portal -->
+        <article class="service-card reveal-on-scroll">
+          <div class="service-card-top">
+            <div class="service-icon-box icon-cybercrime">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <span class="service-category">Citizen Protection</span>
+          </div>
+
+          <h3 class="service-name">Cybercrime Portal</h3>
+          <p class="service-desc">
+            The Ministry of Home Affairs incident reporting hub for reporting cyber financial frauds, identity theft, harassment, and social media abuse under the 1930 Helpline network.
+          </p>
+
+          <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" class="service-portal-link" aria-label="Visit Cybercrime official portal (opens in new tab)">
+            <span>Visit cybercrime.gov.in</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+
+          <div class="audit-improvements">
+            <h4 class="improvements-title">Proposed UI/UX Improvements:</h4>
+            <ul class="improvements-list">
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Emergency Golden Hour Quick-Freeze:</strong> Position a bold "Report UPI/Banking Scam" emergency workflow directly on the landing hero for fast action.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Legal Jargon Translation:</strong> Replace intimidating penal code terms with plain-language situational prompts ("Someone stole money from my bank account").</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Drag-and-Drop Batch Evidence:</strong> Simplify screenshot and bank statement uploads with client-side auto-redaction of sensitive debit card CVVs.</span>
+              </li>
+              <li>
+                <span class="check-dot"></span>
+                <span><strong>Visual Milestone Tracker:</strong> Display transparent case progression markers (Investigator Assigned, Bank Contacted, Lien Marked, Resolved).</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 4. PROJECT METHODOLOGY (#methodology)                                     -->
+  <!-- ========================================================================= -->
+  <section class="section methodology-section" id="methodology">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Academic Framework</span>
+        <h2 class="section-title">Project <span class="gradient-text">Methodology</span></h2>
+        <p class="section-description">
+          Our structured five-phase research framework balances theoretical heuristic analysis with rigorous on-the-ground community engagement.
+        </p>
+      </div>
+
+      <!-- Horizontal (Desktop) / Vertical (Mobile) Timeline -->
+      <div class="timeline-container reveal-on-scroll">
+        <div class="timeline-track" aria-hidden="true"></div>
+
+        <div class="timeline-step">
+          <div class="step-badge">
+            <span class="step-number">01</span>
+          </div>
+          <div class="step-card">
+            <span class="step-phase">Phase One</span>
+            <h3 class="step-title">Literature Review</h3>
+            <p class="step-desc">
+              Comprehensive synthesis of National Informatics Centre (NIC) guidelines, WCAG 2.1 accessibility criteria, and international e-governance usability benchmarks to establish our evaluation baseline.
+            </p>
+            <div class="step-tag">Desk Research</div>
+          </div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-badge">
+            <span class="step-number">02</span>
+          </div>
+          <div class="step-card">
+            <span class="step-phase">Phase Two</span>
+            <h3 class="step-title">Portal Selection & Audit</h3>
+            <p class="step-desc">
+              Formal heuristic inspection of UMANG, DigiLocker, MyScheme, and Cybercrime Portal across 10 core dimensions, documenting friction points in navigation, authentication, and error recovery.
+            </p>
+            <div class="step-tag">Heuristic Audit</div>
+          </div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-badge">
+            <span class="step-number">03</span>
+          </div>
+          <div class="step-card">
+            <span class="step-phase">Phase Three</span>
+            <h3 class="step-title">Community Survey Design</h3>
+            <p class="step-desc">
+              Authoring a bilingual (English & Hindi) questionnaire targeting diverse demographic cohorts, measuring digital literacy levels, trust, frequent failure modes, and portal familiarity.
+            </p>
+            <div class="step-tag">Survey Instrument</div>
+          </div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-badge">
+            <span class="step-number">04</span>
+          </div>
+          <div class="step-card">
+            <span class="step-phase">Phase Four</span>
+            <h3 class="step-title">Field Study & Data Collection</h3>
+            <p class="step-desc">
+              Conducting direct in-person interviews, observation sessions, and survey drives across college campuses, residential societies, and commercial market areas in the Ulhasnagar region.
+            </p>
+            <div class="step-tag">Ground Data</div>
+          </div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-badge">
+            <span class="step-number">05</span>
+          </div>
+          <div class="step-card">
+            <span class="step-phase">Phase Five</span>
+            <h3 class="step-title">Analysis & Recommendations</h3>
+            <p class="step-desc">
+              Statistical collation of survey responses, thematic pain-point clustering, and authoring wireframed UI/UX redesign recommendations to deliver to community stakeholders.
+            </p>
+            <div class="step-tag">Synthesis & Output</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 5. COMMUNITY SURVEY (#survey)                                             -->
+  <!-- ========================================================================= -->
+  <section class="section survey-section" id="survey">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Grassroots Feedback</span>
+        <h2 class="section-title">Community <span class="gradient-text">Survey</span></h2>
+        <p class="section-description">
+          Your firsthand experience helps shape our recommendations. Share your feedback on UMANG, DigiLocker, and other citizen portals in our anonymous survey.
+        </p>
+      </div>
+
+      <div class="survey-wrapper reveal-on-scroll">
+        <div class="survey-header-bar">
+          <div class="survey-status">
+            <span class="live-dot"></span>
+            <span class="survey-title-text">Citizen Experience Questionnaire • Academic Survey</span>
+          </div>
+          <div class="survey-badges">
+            <span class="badge-item">Bilingual (EN / HI)</span>
+            <span class="badge-item">~4 Mins</span>
+            <span class="badge-item">100% Anonymous</span>
+          </div>
+        </div>
+
+        <!-- Embedded Iframe Container Placeholder -->
+        <div class="survey-frame-container">
+          <iframe src="#" 
+            title="E-Governance Usability Field Survey Form" 
+            class="survey-iframe"
+            id="survey-iframe"
+            loading="lazy">
+          </iframe>
+
+          <!-- Stylized Overlay / In-Place Form Placeholder -->
+          <div class="survey-placeholder-overlay" id="survey-overlay">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <path d="M9 11l3 3L22 4"></path>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                </svg>
+              </div>
+              <h3 class="placeholder-heading">Google Form Will Be Embedded Here</h3>
+              <p class="placeholder-description">
+                The community questionnaire is configured for seamless in-frame participation. When deployed with your live Google Form embed URL, respondents can complete the entire survey right here.
+              </p>
+
+              <!-- Sample questions preview to visualize structure -->
+              <div class="survey-preview-cards">
+                <div class="preview-q-card">
+                  <span class="q-num">Q1</span>
+                  <span class="q-text">Have you ever used DigiLocker to store or share your driving license or Aadhaar?</span>
+                </div>
+                <div class="preview-q-card">
+                  <span class="q-num">Q2</span>
+                  <span class="q-text">What is the single biggest issue you face when using the UMANG application?</span>
+                </div>
+                <div class="preview-q-card">
+                  <span class="q-num">Q3</span>
+                  <span class="q-text">Do you rely on local cyber cafés/agents to access government welfare schemes?</span>
+                </div>
+              </div>
+
+              <div class="placeholder-actions">
+                <button class="btn btn-secondary" onclick="alert('To embed your live Google Form: In index.html, replace src=\'#\' on the iframe with your Google Form embed URL (e.g., https://docs.google.com/forms/d/e/.../viewform?embedded=true).')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  <span>How to Embed Live Form</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="survey-footer-note">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>All responses collected comply with university research ethics guidelines and are analyzed strictly in aggregate form.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 6. EVIDENCE & GALLERY (#gallery)                                          -->
+  <!-- ========================================================================= -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Fieldwork Documentation</span>
+        <h2 class="section-title">Evidence & <span class="gradient-text">Gallery</span></h2>
+        <p class="section-description">
+          Photographic evidence and documentation from our on-ground community interactions, survey drives, and interactive usability feedback sessions.
+        </p>
+      </div>
+
+      <!-- 9-card Responsive Grid (3 desktop, 2 tablet, 1 mobile) -->
+      <div class="gallery-grid">
+        <!-- Gallery Card 1 -->
+        <div class="gallery-card grad-1 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Campus Awareness</span>
+              <h4 class="gallery-caption">Field Study Photo - Campus Awareness Drive</h4>
+              <p class="gallery-subtext">Briefing college students on DigiLocker document verification.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 2 -->
+        <div class="gallery-card grad-2 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Guided Workshop</span>
+              <h4 class="gallery-caption">Field Study Photo - DigiLocker Guided Setup</h4>
+              <p class="gallery-subtext">Assisting first-time users with Aadhaar linkage and offline sync.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 3 -->
+        <div class="gallery-card grad-3 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Senior Citizens</span>
+              <h4 class="gallery-caption">Field Study Photo - Senior Usability Interview</h4>
+              <p class="gallery-subtext">Documenting font contrast and OTP hurdles faced by senior citizens.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 4 -->
+        <div class="gallery-card grad-4 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Community Survey</span>
+              <h4 class="gallery-caption">Field Study Photo - Survey in Ulhasnagar</h4>
+              <p class="gallery-subtext">Direct survey administration across local residential clusters.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 5 -->
+        <div class="gallery-card grad-5 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">App Usability</span>
+              <h4 class="gallery-caption">Field Study Photo - UMANG Navigation Test</h4>
+              <p class="gallery-subtext">Testing task-completion times for EPF and electricity bill services.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 6 -->
+        <div class="gallery-card grad-6 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Local Merchants</span>
+              <h4 class="gallery-caption">Field Study Photo - Micro-Retailer Feedback</h4>
+              <p class="gallery-subtext">Evaluating merchant awareness of welfare and taxation schemes.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 7 -->
+        <div class="gallery-card grad-7 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">CHM College</span>
+              <h4 class="gallery-caption">Field Study Photo - Heuristic Audit Lab</h4>
+              <p class="gallery-subtext">Group evaluation sessions mapping UX breakdowns across portals.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 8 -->
+        <div class="gallery-card grad-8 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Cyber Safety</span>
+              <h4 class="gallery-caption">Field Study Photo - Cyber Safety Briefing</h4>
+              <p class="gallery-subtext">Demonstrating the National Cybercrime Portal & 1930 Helpline.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery Card 9 -->
+        <div class="gallery-card grad-9 reveal-on-scroll">
+          <div class="gallery-card-inner">
+            <div class="camera-icon-wrapper">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-tag">Focus Group</span>
+              <h4 class="gallery-caption">Field Study Photo - Vernacular Accessibility</h4>
+              <p class="gallery-subtext">Focus group discussion on English terminology vs. Hindi localization.</p>
+            </div>
+            <div class="gallery-overlay">
+              <span class="view-pill">View Photo Details</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 7. ONLINE SAFETY & FAQS (#faq)                                            -->
+  <!-- ========================================================================= -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Citizen Awareness</span>
+        <h2 class="section-title">Online Safety & <span class="gradient-text">FAQs</span></h2>
+        <p class="section-description">
+          Essential guidelines, legal rights, and digital cybersecurity practices for safely navigating government portals and safeguarding your identity.
+        </p>
+      </div>
+
+      <div class="faq-accordion-container reveal-on-scroll">
+        <!-- FAQ 1 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">Is my personal data safe on DigiLocker, and who can access my issued documents?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Yes, DigiLocker employs 256-bit SSL encryption and complies with the Information Technology (Preservation and Retention of Information by Intermediaries Providing Digital Locker Facilities) Rules, 2016. Your documents are stored across secure data centres hosted by the National Informatics Centre (NIC).
+              </p>
+              <p>
+                Under Section 5A of the IT Act, electronically fetched documents in DigiLocker carry identical legal validity to original physical certificates. Crucially, <strong>no department or agency can access your documents without your explicit consent</strong>. Every access request triggers an OTP or explicit authorization prompt on your registered mobile number.
+              </p>
+            </div>
+          </div>
+        </details>
+
+        <!-- FAQ 2 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">Is it safe to share my Aadhaar number on e-governance apps, and what is a Masked Aadhaar?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Official government portals like UMANG and DigiLocker interact directly with the UIDAI Central Identities Data Repository (CIDR) through encrypted API channels. They do not store your raw biometric records.
+              </p>
+              <p>
+                However, for everyday identification (hotel check-ins, offline delivery receipts), UIDAI strongly advises downloading and sharing a <strong>Masked Aadhaar</strong> (available on DigiLocker or the official UIDAI portal). A Masked Aadhaar obscures the first 8 digits (e.g., <code>XXXX-XXXX-1234</code>), preserving your privacy while keeping the photo and verification QR code fully authentic.
+              </p>
+            </div>
+          </div>
+        </details>
+
+        <!-- FAQ 3 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">Why does the UMANG app request permissions like SMS, Location, and Storage?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                UMANG aggregates over 1,200 diverse government services, each with specific operating prerequisites:
+              </p>
+              <ul>
+                <li><strong>SMS:</strong> Used for automated one-time password (OTP) verification to prevent phishing intercepts.</li>
+                <li><strong>Location:</strong> Required for geotagging services such as locating nearest CSC Kendra centres, polling booths, or fair-price ration shops.</li>
+                <li><strong>Storage/Camera:</strong> Necessary for uploading identity proofs or downloading digitally signed certificates.</li>
+              </ul>
+              <p>
+                Our UI/UX audit recommends that UMANG adopt <em>runtime just-in-time permissions</em>—asking for access only when a user specifically launches a feature requiring that capability.
+              </p>
+            </div>
+          </div>
+        </details>
+
+        <!-- FAQ 4 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">What immediate steps should I take if I fall victim to an online financial fraud?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Every minute counts. The first 2 to 3 hours following an unauthorized transaction constitute the <strong>"Golden Hours"</strong>:
+              </p>
+              <ol>
+                <li><strong>Dial 1930 immediately:</strong> Call the National Cybercrime Financial Fraud Helpline (operated by the Indian Cyber Crime Coordination Centre, I4C). They trigger automated lien alerts across banking switches to freeze stolen funds before scammers withdraw them.</li>
+                <li><strong>Log on to cybercrime.gov.in:</strong> Submit a detailed formal complaint under "Report Financial Fraud" with transaction IDs, UPI handles, bank reference numbers, and debit timestamps.</li>
+                <li><strong>Freeze your cards & UPI:</strong> Immediately block your compromised debit/credit cards and reset your UPI and NetBanking MPINs via your bank's official app.</li>
+              </ol>
+            </div>
+          </div>
+        </details>
+
+        <!-- FAQ 5 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">What are the best practices for setting up and safeguarding M-PINs and passwords?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Citizen portals store sensitive tax returns, driving records, and pension documents. Protect your access with these core security hygiene principles:
+              </p>
+              <ul>
+                <li>Never use obvious sequences or birth years (e.g., <code>123456</code>, <code>000000</code>, or your birth year) as your DigiLocker 6-digit security PIN.</li>
+                <li>Do not reuse the same PIN or password across your citizen portals and social media accounts.</li>
+                <li>Never share an OTP received on SMS with anyone claiming to be a "portal customer support agent" or "Aadhaar verification officer". Genuine government representatives will never ask for your OTP.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- FAQ 6 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">How can I identify fake government portals and phishing messages imitating official portals?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                Cybercriminals frequently create lookalike domain names to harvest Aadhaar details and bank accounts. Always verify these indicators:
+              </p>
+              <ul>
+                <li><strong>The <code>.gov.in</code> or <code>.nic.in</code> domain rule:</strong> Genuine Indian government portals strictly end in <code>.gov.in</code> or <code>.nic.in</code> (e.g., <code>digilocker.gov.in</code>, <code>web.umang.gov.in</code>). Beware of domains ending in <code>.com</code>, <code>.org.in</code>, <code>.xyz</code>, or <code>.online</code>.</li>
+                <li><strong>Suspicious SMS Senders:</strong> Official government alerts use registered SMS sender IDs like <code>AD-DGLCKR</code>, <code>VM-GOVSMS</code>, or <code>VK-NIC</code>, never standard 10-digit mobile numbers.</li>
+                <li><strong>Urgent Demands for Payment:</strong> Legitimate portals do not charge fees for basic DigiLocker registration or scheme discovery on MyScheme.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- FAQ 7 -->
+        <details class="faq-item" name="faq-group">
+          <summary class="faq-question">
+            <span class="faq-title-text">Is it safe to access DigiLocker or file complaints while connected to public or railway Wi-Fi networks?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              <p>
+                While DigiLocker and Cybercrime Portal communicate over HTTPS (encrypted connection), public Wi-Fi networks in railway stations, bus stands, or coffee shops are susceptible to <em>Man-in-the-Middle (MITM)</em> attacks, rogue hotspots, and DNS spoofing.
+              </p>
+              <p>
+                <strong>Recommendation:</strong> When downloading sensitive identity documents or conducting financial fraud reporting, prefer your cellular data (4G/5G) or use a reputable Virtual Private Network (VPN). Always log out of shared computers at cyber cafés immediately after completing your work.
+              </p>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 8. RESEARCH TEAM (#team)                                                 -->
+  <!-- ========================================================================= -->
+  <section class="section team-section" id="team">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-eyebrow">Academic Contributors</span>
+        <h2 class="section-title">Research <span class="gradient-text">Team</span></h2>
+        <p class="section-description">
+          B.Sc. Computer Science — TYCS Sem V | CHMCSV11
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <!-- Team Card 1: Tanishka Avinash Bhoir -->
+        <div class="team-card reveal-on-scroll">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar avatar-tab">
+              <span>TAB</span>
+            </div>
+            <span class="roll-badge">Roll 11</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Tanishka Avinash Bhoir</h3>
+            <p class="team-role">Response Collection</p>
+          </div>
+        </div>
+
+        <!-- Team Card 2: Kadambari Sanjay Vidvi -->
+        <div class="team-card reveal-on-scroll">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar avatar-ksv">
+              <span>KSV</span>
+            </div>
+            <span class="roll-badge">Roll 12</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Kadambari Sanjay Vidvi</h3>
+            <p class="team-role">Report Documentation</p>
+          </div>
+        </div>
+
+        <!-- Team Card 3: Aayush Rajesh Bobade -->
+        <div class="team-card reveal-on-scroll">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar avatar-arb">
+              <span>ARB</span>
+            </div>
+            <span class="roll-badge">Roll 13</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Aayush Rajesh Bobade</h3>
+            <p class="team-role">Field Work & Community Interaction</p>
+          </div>
+        </div>
+
+        <!-- Team Card 4: Vidya Nitin Burhade -->
+        <div class="team-card reveal-on-scroll">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar avatar-vnb">
+              <span>VNB</span>
+            </div>
+            <span class="roll-badge">Roll 14</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Vidya Nitin Burhade</h3>
+            <p class="team-role">Response Analysis & Report</p>
+          </div>
+        </div>
+
+        <!-- Team Card 5: Siddhesh Niraj Chaube -->
+        <div class="team-card reveal-on-scroll">
+          <div class="team-avatar-wrapper">
+            <div class="team-avatar avatar-snc">
+              <span>SNC</span>
+            </div>
+            <span class="roll-badge">Roll 15</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Siddhesh Niraj Chaube</h3>
+            <p class="team-role">Questionnaire & Website Development</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 9. FOOTER                                                                 -->
+  <!-- ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Project Identity -->
+        <div class="footer-col footer-branding">
+          <div class="footer-logo">
+            <span class="brand-logo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+            </span>
+            <span class="footer-brand-title">E-Governance & Citizen Portals</span>
+          </div>
+          <p class="footer-tagline">
+            Usability and UI/UX Improvements for UMANG and DigiLocker
+          </p>
+          <p class="footer-college-text">
+            Community Engagement Project (CHMCSV11)<br>
+            <strong>Smt. Chandibai Himathmal Mansukhani College</strong><br>
+            Affiliated with the University of Mumbai • Ulhasnagar, Maharashtra
+          </p>
+        </div>
+
+        <!-- Col 2: Project Members -->
+        <div class="footer-col footer-team">
+          <h4 class="footer-heading">Research Team</h4>
+          <ul class="team-list">
+            <li class="team-member">
+              <span class="member-name">Tanishka Avinash Bhoir</span>
+              <span class="member-role">Roll 11 • Response Collection</span>
+            </li>
+            <li class="team-member">
+              <span class="member-name">Kadambari Sanjay Vidvi</span>
+              <span class="member-role">Roll 12 • Report Documentation</span>
+            </li>
+            <li class="team-member">
+              <span class="member-name">Aayush Rajesh Bobade</span>
+              <span class="member-role">Roll 13 • Field Work & Community Interaction</span>
+            </li>
+            <li class="team-member">
+              <span class="member-name">Vidya Nitin Burhade</span>
+              <span class="member-role">Roll 14 • Response Analysis & Report</span>
+            </li>
+            <li class="team-member">
+              <span class="member-name">Siddhesh Niraj Chaube</span>
+              <span class="member-role">Roll 15 • Questionnaire & Website Development</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation Links -->
+        <div class="footer-col footer-links-col">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Project</a></li>
+            <li><a href="#services">Services & Audit</a></li>
+            <li><a href="#methodology">Methodology</a></li>
+            <li><a href="#survey">Community Survey</a></li>
+            <li><a href="#gallery">Field Gallery</a></li>
+            <li><a href="#faq">Safety & FAQs</a></li>
+            <li><a href="#team">Research Team</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Official Portals & Social Links -->
+        <div class="footer-col footer-portals-col">
+          <h4 class="footer-heading">National Portals</h4>
+          <ul class="footer-external-links">
+            <li><a href="https://www.digilocker.gov.in" target="_blank" rel="noopener noreferrer">DigiLocker Portal ↗</a></li>
+            <li><a href="https://web.umang.gov.in" target="_blank" rel="noopener noreferrer">UMANG Web Portal ↗</a></li>
+            <li><a href="https://www.myscheme.gov.in" target="_blank" rel="noopener noreferrer">MyScheme Entitlements ↗</a></li>
+            <li><a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer">Cybercrime Portal (1930) ↗</a></li>
+            <li><a href="https://www.digitalindia.gov.in" target="_blank" rel="noopener noreferrer">Digital India Initiative ↗</a></li>
+          </ul>
+
+          <div class="footer-socials">
+            <a href="#" class="social-icon-btn" aria-label="Project Repository on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn Research Page">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="CHM College Website">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">
+          &copy; 2025 Smt. Chandibai Himathmal Mansukhani College • CHMCSV11 Project. Developed for academic community research.
+        </p>
+        <a href="#home" class="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Inclusion -->
+  <script src="script.js"></script>
+</body>
+</html>
